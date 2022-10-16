@@ -1,0 +1,78 @@
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;    
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #040808;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.upload-label:hover{
+    background: #34495E;
+    color: #000000;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+body
+{
+    background-image: url(https://www.uicc.org/sites/main/files/styles/uicc_news_main_image/public/thumbnails/image/BCAM2016_FA.jpg?itok=zimiEGKS);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+/*h2
+{
+    color: blue;
+}
+h2
+{
+    border-radius: 5em;
+    border-color: red;
+}*/
+.ref1
+{
+    text-justify: inter-word;
+    align-items: center;
+    /* align-self: center;
+    border-left: 10em; */
+    color: black;
+} 
+
+.Title h1:hover {
+    color: rgb(65, 65, 192);
+  }
